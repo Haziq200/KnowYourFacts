@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Frag3">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/tv3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text='Since 1987, Singapore’s Changi Airport has consistently won the award for “Best Airport in Asia” from The Asian Freight and Supply Chain Awards 2014. That’s 28 consecutive years!'
+            android:textColor="@android:color/background_dark"
+            android:textSize="24sp" />
+
+
+        <Button4
+            android:id="@+id/btnColor3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Change Color" />
+    </LinearLayout>
+
+
+</FrameLayout>

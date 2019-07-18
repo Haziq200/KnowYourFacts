@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/holo_orange_light"
+    tools:context=".Frag2">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/tv2a"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="The youngest person to pass the GCE ‘O’ Level Chemistry paper in the world is a Singaporean. Ainan Celeste Cawley was only 7 years and 1 month old when he took the GCE ‘O’ Level Chemistry paper and passed, making him the youngest in the world to do so. Kudos to him!"
+            android:textColor="@android:color/background_dark"
+            android:textSize="24sp" />
+
+
+        <TextView
+            android:id="@+id/tv2b"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="'Popular cable channel Cartoon Network initially thought Singapore was in Malaysia. It’s true, Singaporeans are often mistaken to be from Malaysia or China when travelling overseas."
+            android:textColor="@android:color/background_dark"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/btnColor2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Change Colour" />
+
+
+    </LinearLayout>
+
+
+</FrameLayout>

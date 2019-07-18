@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@android:color/holo_blue_light"
+    tools:context=".Frag1">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/tv1a"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="The largest fountain in the world is right here in Singapore at the heart of Suntec City. It cost an estimated US$6 million to build in 1997.The largest fountain in the world is right here in Singapore at the heart of Suntec City. It cost an estimated US$6 million to build in 1997."
+            android:textColor="@android:color/background_dark"
+            android:textSize="24sp" />
+
+
+             <TextView
+                 android:id="@+id/tv1b"
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:layout_marginTop="20dp"
+                 android:textColor="@android:color/background_dark"
+                 android:text="The Guinness book record for the longest human domino chain was set in Singapore on 30th September 2000. Formed by 9,234 students, it measured 4.2km."
+                 android:textSize="24sp" />
+
+
+             <com.jsibbold.zoomage.ZoomageView
+                 android:id="@+id/iv"
+                 android:layout_width="200dp"
+                 android:layout_height="200dp"
+                 android:layout_gravity="center"
+                 android:layout_marginBottom="10dp"
+                 android:src="@mipmap/ic_launcher"
+                 app:zoomage_restrictBounds="false"
+                 app:zoomage_animateOnReset="true"
+                 app:zoomage_autoResetMode="UNDER"
+                 app:zoomage_autoCenter="true"
+                 app:zoomage_zoomable="true"
+                 app:zoomage_translatable="true"
+                 app:zoomage_minScale="0.6"
+                 app:zoomage_maxScale="8"/>
+
+
+             <Button
+                 android:id="@+id/btnColor1"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:text="Change Colour" />
+         </LinearLayout>
+
+
+    </FrameLayout>
